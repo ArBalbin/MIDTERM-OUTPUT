@@ -6,9 +6,10 @@ async function bootstrap() {
 
   app.enableCors({
     origin: [
-      'http://localhost:3000',                // local dev
-      'http://192.168.56.1:3000',            // local network testing
-      'https://my-web-app-ten-lyart.vercel.app' // deployed frontend
+      'http://localhost:3000',                 // local dev
+      'http://192.168.56.1:3000',             // local network testing
+      'https://my-web-app-ten-lyart.vercel.app', // deployed frontend
+      'https://p7-seven.vercel.app'           
     ],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true, 
